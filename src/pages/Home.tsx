@@ -72,7 +72,7 @@ export default function Home() {
                 <FaWhatsapp className="w-5 h-5" />
               </a>
             </div>
-            <Button className="font-serif tracking-wider bg-primary text-primary-foreground hover:bg-primary/90 rounded-none px-6" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
+            <Button className="font-serif tracking-wider bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg px-6" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
               Get Quote
             </Button>
           </div>
